@@ -35,8 +35,41 @@ $ git add 파일명
 $ git add .
 
 
+(4) 임시저장 취소하기 - reset
+$ git reset 파일명
+$ git reset .
+ 
+(5) Git 저장하기 - Commit
+- 임시저장된 상태만 저장이된다.
 
-'''
+$ git commit -m " 커밋 메세지 "
+
+
+(6) Git 히스토리 확인 - log
+- commit 이력을 확인
+
+$ git log
+
+commit efe81f41d36af22a54d03ab4b546620fd2b2a825 (HEAD -> main) <- 고유아이디 앞자리7
+Author: sunin <suninhailey1104@gmail.com>
+Date:   Wed May 21 23:10:27 2025 +0900
+
+    첫번쨰 커밋
+
+
+
+7. 로컬 저장소와 원격저장소 연결 추가 - remote add    
+$ git remote add [원격저장소 별명] [원격저장소 주소]
+git remote add test https://github.com/sunin1104/git1104.git
+
+
+8. 원격 저장소 연결 상태 확인 - remote -v
+$ git remote -v
+
+9. 원격저장소에 이력 업로드 - push
+$ git push [원격저장소별명][브런치]
+git push test main
+''' 
 
 
 
