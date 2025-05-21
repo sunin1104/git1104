@@ -1,0 +1,39 @@
+# 2025.02.10 과제
+# 과제1
+for i in range(3):
+    print("Hi")
+
+# 과제2
+for i in range(30):
+    print(i+1) 
+
+print("@@@@@@@@@@")
+# 과제3
+for i in range(51):
+    if i>30:
+        print(i)
+
+# 과제4
+for i in range(10):
+    if (i+1)%2==0:
+        print(i+1)
+    
+# 과제5
+dinnermenu=["포케","브리또","카레","라면","치킨"]
+print(dinnermenu)    
+
+# 과제6
+dinnermenu.append("족발")
+print(dinnermenu)
+
+# 과제7 3번쨰 값 카레를 피자로 수정
+dinnermenu[2]="피자"
+print(dinnermenu)
+
+# 과제8
+dinnermenu.pop()
+print(dinnermenu)
+
+# 과제9
+for i in range(len(dinnermenu)):
+    print(dinnermenu[i])

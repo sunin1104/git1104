@@ -1,0 +1,8 @@
+'''
+1. baekjoon 폴더에서 > 문제번호.py 파일을 생성하기
+2. 문제를 풀고
+3. 제출하기
+'''
+
+
+# https://www.acmicpc.net/problem/25304

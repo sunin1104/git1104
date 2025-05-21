@@ -1,0 +1,79 @@
+
+public class Hello2030{
+	static int def;
+	static boolean bool;
+	static String name;
+	
+	public static void main(String[]args) {
+		int n=100;
+		System.out.println(n);
+		
+		System.out.println(def);
+		System.out.println(bool);
+		System.out.println(name);
+	}
+}
+
+public class CircleArea{
+	public static void main(String[]args) {
+		final double pi =3.14;
+		double radius =10.2;
+		double circleArea =radius *radius*pi;
+		
+		System.out.print("반지름"+radius+",");
+		System.out.println("원의 면적="+circleArea);
+	}
+}
+
+
+
+
+
+문제 1
+
+
+public class Scanner {
+	public static void main(String[]args) {
+		Scanner scanner=new Scanner(System.in);
+			System.out.print("원화를 입력하세요.(단위 원)>>");
+			int won=scanner.nextin();
+			float dal =won/1100;
+			
+			System.out.println(won+"원은"+dal+"입니다.");
+			scanner.close();
+	}
+}
+
+
+문제 2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
